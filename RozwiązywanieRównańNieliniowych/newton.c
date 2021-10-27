@@ -11,7 +11,7 @@ double funkcja (double x) // funkcja
 
 double funkcja_pochodna (double x) // funkcja po obliczeniu pochodnej
 {
-  return cos (x) - pow (M_E, -x);
+  return cos (x) + pow (M_E, -x);
 }
 
 int main ()
